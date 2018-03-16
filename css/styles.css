@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300|PT+Sans+Narrow');
+
+body {
+  background-color: #BCB6BD;
+}
+
+h1 {
+  margin: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  line-height: 25px;
+}
+
+#intro {
+  margin: 10px;
+  padding: 10px;
+  border: 2px #706270 solid;
+  background-color: #626E70
+}
+
+#intro h1 {
+  margin: 10px;
+}
+
+#intro p {
+  margin: 10px;
+  text-indent: 15px;
+}
