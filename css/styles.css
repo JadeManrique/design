@@ -19,12 +19,23 @@ p {
   line-height: 25px;
 }
 
+.team {
+  opacity: 0.0;
+  text-align: center;
+}
+
+.team img {
+  width: 0px;
+  height: auto;
+  border-radius: 100%;
+}
+
 #intro {
   margin: 10px;
   padding: 10px;
   border: 10px #706270 solid;
   border-radius: 15px;
-  background-color: #626E70
+  background-color: #626E70;
 }
 
 #intro h1 {
