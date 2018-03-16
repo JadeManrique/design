@@ -2,6 +2,7 @@
 
 body {
   background-color: #BCB6BD;
+  margin: 10px;
 }
 
 h1 {
@@ -21,7 +22,8 @@ p {
 #intro {
   margin: 10px;
   padding: 10px;
-  border: 2px #706270 solid;
+  border: 10px #706270 solid;
+  border-radius: 15px;
   background-color: #626E70
 }
 
@@ -30,6 +32,30 @@ p {
 }
 
 #intro p {
+  margin: 10px;
+  text-indent: 15px;
+}
+
+.container {
+  text-align: center;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  border: 10px #706270 solid;
+  border-radius: 15px;
+  background-color: #626E70;
+  width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+.box h1 {
+  margin: 10px;
+}
+
+.box p {
   margin: 10px;
   text-indent: 15px;
 }
